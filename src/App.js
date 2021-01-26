@@ -13,7 +13,7 @@ function App() {
   });
 
   async function getPhotos(params) {
-    let url = "http://api.unsplash.com/photos";
+    let url = "https://api.unsplash.com/photos";
     let next = params;
     if(next){
       url = `${url}?page=${params.page}`;
